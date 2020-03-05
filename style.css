@@ -78,7 +78,11 @@ h1{
     float: right;
     margin-right: 5%;
     padding-right: 5%;
+    overflow: hidden;
     
+}
+.fix{
+    overflow: hidden;
 }
 .jack{
 box-shadow: 5px 5px 40px gray;
@@ -110,8 +114,27 @@ height: 70%;;
     margin-right: 1%;
     padding-left: 1%;
     padding-right: 1%;
+    overflow: hidden;
 }
 .review-area{
     background-image: url(images/header-bg.png);
     height: 500px;
+    
+}
+.message{
+    align-items: center;
+    text-align: center;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: tomato;
+    padding: 40px 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+footer p {
+    text-align:center ;
 }
